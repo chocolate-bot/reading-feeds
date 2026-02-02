@@ -1,0 +1,66 @@
+# Orange — AI + Crypto + Quantum (30 feeds)
+
+导入 OPML：`curated/orange-ai-crypto-quantum-30.opml`
+
+说明：包含一部分 AI/工程博客 + Bitcoin/Ethereum/Cardano/Dogecoin 信息源 + 量子计算/密码学（含可能的抗量子/PQC 论文源）。
+
+- **simonwillison.net** — https://simonwillison.net
+  - feed: https://simonwillison.net/atom/everything/
+- **jeffgeerling.com** — https://jeffgeerling.com
+  - feed: https://www.jeffgeerling.com/blog.xml
+- **seangoedecke.com** — https://seangoedecke.com
+  - feed: https://www.seangoedecke.com/rss.xml
+- **krebsonsecurity.com** — https://krebsonsecurity.com
+  - feed: https://krebsonsecurity.com/feed/
+- **daringfireball.net** — https://daringfireball.net
+  - feed: https://daringfireball.net/feeds/main
+- **ericmigi.com** — https://ericmigi.com
+  - feed: https://ericmigi.com/rss.xml
+- **maurycyz.com** — https://maurycyz.com
+  - feed: https://maurycyz.com/index.xml
+- **pluralistic.net** — https://pluralistic.net
+  - feed: https://pluralistic.net/feed/
+- **lcamtuf.substack.com** — https://lcamtuf.substack.com
+  - feed: https://lcamtuf.substack.com/feed
+- **mitchellh.com** — https://mitchellh.com
+  - feed: https://mitchellh.com/feed.xml
+- **dynomight.net** — https://dynomight.net
+  - feed: https://dynomight.net/feed.xml
+- **devblogs.microsoft.com/oldnewthing** — https://devblogs.microsoft.com/oldnewthing
+  - feed: https://devblogs.microsoft.com/oldnewthing/feed
+- **righto.com** — https://righto.com
+  - feed: https://www.righto.com/feeds/posts/default
+- **lucumr.pocoo.org** — https://lucumr.pocoo.org
+  - feed: https://lucumr.pocoo.org/feed.atom
+- **skyfall.dev** — https://skyfall.dev
+  - feed: https://skyfall.dev/rss.xml
+- **garymarcus.substack.com** — https://garymarcus.substack.com
+  - feed: https://garymarcus.substack.com/feed
+- **rachelbythebay.com** — https://rachelbythebay.com
+  - feed: https://rachelbythebay.com/w/atom.xml
+- **overreacted.io** — https://overreacted.io
+  - feed: https://overreacted.io/rss.xml
+- **CoinDesk (Crypto News)** — https://www.coindesk.com
+  - feed: https://www.coindesk.com/arc/outboundfeeds/rss/
+- **Bitcoin Optech** — https://bitcoinops.org
+  - feed: https://bitcoinops.org/feed.xml
+- **Ethereum Foundation Blog** — https://blog.ethereum.org
+  - feed: https://blog.ethereum.org/feed.xml
+- **Ethereum Research (ethresear.ch)** — https://ethresear.ch
+  - feed: https://ethresear.ch/latest.rss
+- **r/ethereum (Reddit)** — https://www.reddit.com/r/ethereum/
+  - feed: https://www.reddit.com/r/ethereum/.rss
+- **r/bitcoin (Reddit)** — https://www.reddit.com/r/bitcoin/
+  - feed: https://www.reddit.com/r/bitcoin/.rss
+- **r/cardano (Reddit)** — https://www.reddit.com/r/cardano/
+  - feed: https://www.reddit.com/r/cardano/.rss
+- **r/dogecoin (Reddit)** — https://www.reddit.com/r/dogecoin/
+  - feed: https://www.reddit.com/r/dogecoin/.rss
+- **r/CryptoCurrency (Reddit)** — https://www.reddit.com/r/CryptoCurrency/
+  - feed: https://www.reddit.com/r/CryptoCurrency/.rss
+- **Quanta Magazine** — https://www.quantamagazine.org
+  - feed: https://www.quantamagazine.org/feed/
+- **The Quantum Insider** — https://thequantuminsider.com
+  - feed: https://thequantuminsider.com/feed/
+- **arXiv quant-ph RSS** — https://arxiv.org/list/quant-ph/recent
+  - feed: https://export.arxiv.org/rss/quant-ph
