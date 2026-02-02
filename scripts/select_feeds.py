@@ -29,8 +29,11 @@ def pick_category(title: str, html: str, xml: str) -> str:
     if any(k in t for k in ["krebson", "troyhunt", "security", "cve", "vuln"]):
         return "Security"
 
-    if any(k in t for k in ["simonwillison", "ai", "llm", "data", "statistics", "dynomight", "minimaxir"]):
+    if any(k in t for k in ["simonwillison", "ai", "llm", "ml", "machine learning", "data", "statistics", "dynomight", "minimaxir", "rag", "prompt"]):
         return "AI & Data"
+
+    if any(k in t for k in ["crypto", "blockchain", "web3", "ethereum", "bitcoin", "solana", "defi"]):
+        return "Crypto & Web3"
 
     if any(k in t for k in [
         "oldnewthing",
@@ -117,12 +120,14 @@ def main():
 
     items = parse_opml(args.in_path)
 
+    # Orange preference: AI/tech/frontier + some crypto/web3.
     quotas = {
-        "AI & Data": 8,
-        "Security": 6,
-        "Software & Systems": 8,
-        "Writing & Essays": 6,
-        "Misc": 2,
+        "AI & Data": 12,
+        "Crypto & Web3": 2,
+        "Software & Systems": 10,
+        "Security": 3,
+        "Writing & Essays": 3,
+        "Misc": 0,
     }
 
     picked = []
@@ -159,7 +164,7 @@ def main():
     with open(args.md_path, "w", encoding="utf-8") as f:
         f.write(f"# HN 2025 Popular Blogs — Selected {len(picked)} feeds (starter pack)\n\n")
         f.write("This is a curated subset to reduce overload. Import the OPML for RSS readers.\n\n")
-        for cat in ["AI & Data", "Security", "Software & Systems", "Writing & Essays", "Misc"]:
+        for cat in ["AI & Data", "Crypto & Web3", "Software & Systems", "Security", "Writing & Essays", "Misc"]:
             subset = [x for x in picked if x[3] == cat]
             if not subset:
                 continue

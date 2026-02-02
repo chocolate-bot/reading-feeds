@@ -30,6 +30,10 @@ def pick_category(title: str, html: str, xml: str) -> str:
     if any(k in t for k in ["simonwillison", "machine", "llm", "ai", "data", "statistics", "dynomight", "minimaxir"]):
         return "AI & Data"
 
+    # crypto / blockchain
+    if any(k in t for k in ["crypto", "blockchain", "web3", "ethereum", "bitcoin", "solana", "defi"]):
+        return "Crypto & Web3"
+
     # programming / software
     if any(k in t for k in ["program", "dev", "coding", "engineering", "pocoo", "mitchellh", "matklad", "righto", "fabiensanglard", "beej", "oldnewthing", "jeffgeerling"]):
         return "Software & Systems"
@@ -73,7 +77,7 @@ def main():
         c = pick_category(title, html, xml)
         cats.setdefault(c, []).append((title, html, xml))
 
-    order = ["AI & Data", "Security", "Software & Systems", "Writing & Essays", "Misc"]
+    order = ["AI & Data", "Crypto & Web3", "Security", "Software & Systems", "Writing & Essays", "Misc"]
 
     print("# HN 2025 Popular Blogs — Categorized OPML (quick browsing)\n")
     print("Source: https://gist.github.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b\n")
